@@ -8,8 +8,8 @@
  * Return: Always 0 (success)
  */
 
-{
 int main(void)
+{
 	char c;
 	char d;
 

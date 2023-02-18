@@ -10,20 +10,13 @@
 
 int main(void)
 {
-	char c;
-	char d;
+	char lc;
 
-	c = 'a';
-	d = 'A';
-	while
-		(c <= 'Z') {
-			putchar(c);
-			c++;
-		}
-	while
-		(d <= 'z') {
-			putchar(d);
-			d++;
-		}
-	return(0);
+	for lc = 'a'; lc <= '2'; lc++
+	{
+		putchar(lc);
+
+	}
+	putchar('\n');
+	return (0);
 }

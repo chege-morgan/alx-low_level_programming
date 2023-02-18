@@ -18,12 +18,13 @@ int main(void)
 	while
 		(c <= 'Z') {
 			putchar(c);
-			c++
+			c++;
 		}
 	while
 		(d <= 'z') {
-			putchar(c);
-			c++
+			putchar(d);
+			d++;
 		}
+	putchar ('|n')
 	Return(0);
 }

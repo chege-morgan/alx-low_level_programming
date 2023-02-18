@@ -6,11 +6,6 @@
 
 int main(void)
 {
-	int a;
-	long int b;
-	long long int c;
-	char d;
-	float f;
 
 	Printf("size of a int: %zu byte(s)\n", sizeof(int));
 	Printf("size of a long int: %zu byte(s)\n", sizeof(long int));

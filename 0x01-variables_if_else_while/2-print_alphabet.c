@@ -25,6 +25,6 @@ int main(void)
 			putchar(d);
 			d++;
 		}
-	putchar ('|n')
+	putchar ('\n');
 	Return(0);
 }

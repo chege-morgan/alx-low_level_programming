@@ -10,13 +10,12 @@
 
 int main(void)
 {
-	char lc;
-
-	for lc = 'a'; lc <= '2'; lc++
-	{
-		putchar(lc);
-
-	}
+	int char = 'a';
+		while (ch <= 'z'
+		{
+				puchar(ch);
+				ch++
+		}
 	putchar('\n');
 	return (0);
 }

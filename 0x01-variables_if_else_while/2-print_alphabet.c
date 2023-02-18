@@ -11,7 +11,7 @@
 int main(void)
 {
 	int ch = 'a';
-		while (ch <= 'z'
+		while (ch <= 'z');
 		{
 				puchar(ch);
 				ch++

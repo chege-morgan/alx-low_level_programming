@@ -1,4 +1,4 @@
-#include "main_h"
+#include "main.h"
 /**
  * main - print _puthar
  * Return: 0 (success)

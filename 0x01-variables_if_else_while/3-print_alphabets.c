@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * Main - prints alpha in lower and upper case
- * Returns: Always 0
+ *main - prints alphabets in lower and upper case;
+ *Return: Always 0 (success)
  */
 
 int main(void)
+
 {
 	char ch;
 
@@ -14,8 +15,6 @@ int main(void)
 
 	for (ch = 'A'; ch <= 'z'; ch++)
 	putchar(ch);
-
-	putchar('\n')
-
+	putchar('\n');
 	return (0);
 }

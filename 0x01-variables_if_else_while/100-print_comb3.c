@@ -15,12 +15,12 @@ int main(void)
 	{
 	for (b = a + 1; b <= 9; b++)
 	{
-	if (a != b)
+	if (b != a)
 	{
 		putchar (a);
 		putchar (b);
 		if (a == '8' && b == '9')
-			continue;
+		continue;
 		putchar(',');
 		putchar(' ');
 	}

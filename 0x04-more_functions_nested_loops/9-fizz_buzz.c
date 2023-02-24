@@ -18,6 +18,10 @@ int main(void)
 	}
 	else if (x % 3 == 0)
 	{
+	printf("fizz");
+	}
+	else if (x % 5 == 0)
+	{
 	printf("buzz");
 	}
 	else

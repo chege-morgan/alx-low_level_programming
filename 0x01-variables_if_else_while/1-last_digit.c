@@ -8,23 +8,23 @@
  */
 int main(void)
 {
-	int n;
+	int n, be;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	be = n % 10;
 
-	if (n > 0
+	if (be > 0)
 	{
-	printf("%d is positive\n", n);
+	printf("Last digit of %d is %d and is greater than 5\n", n, be);
 	}
-	else if (n == 0)
+	else if (be == 0)
 	{
-	printf("%d is zero\n", n);
+	printf("Last digit of %d is %d and is 0\n", n, be);
 	}
-	else
+	else if (be < 6 && be != 0)
 	{
-	printf("%d is negative\n", n);
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, be);
 	}
-	Return(0);
+	return (0);
 }
-

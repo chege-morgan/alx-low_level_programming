@@ -1,15 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- *main - prints alphabets in lower case followed by a new line
- *Return: 0 (success)
+ * main - main Function
+ * Return: Always 0
  */
+
 int main(void)
 {
-	char = low
-		for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
-		return (0);
+	char x;
+
+	for (x = 'a' ; x <= 'z'; x++)
+	if (x != 'q' && x != 'e')
+		putchar(x);
+	putchar('\n');
+	return (0);
 }
